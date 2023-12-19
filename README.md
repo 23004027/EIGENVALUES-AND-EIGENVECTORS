@@ -26,7 +26,8 @@ End the program.
 import numpy as np
 a=np.array([[4,2],[2,4]])
 values,vectors=np.linalg.eig(a)
-print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+print("Eigen values are {} and Eigen Vectors are {}"
+.format(values,vectors))
 ```
 ## Output:
 ![EXM4](https://github.com/23004027/EIGENVALUES-AND-EIGENVECTORS/assets/138956447/9583cdcd-73a4-4db0-8448-7867eb7fda80)
